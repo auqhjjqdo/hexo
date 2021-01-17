@@ -338,22 +338,19 @@ Content Cell  | Content Cell
 | Phone     |   $12 |
 | Pipe      |    $1 |
 
-#### 特殊符号 HTML Entities Codes
+### 9.特殊符号 HTML Entities Codes
 ```
 &copy; &  &uml; &trade; &iexcl; &pound;
 &amp; &lt; &gt; &yen; &euro; &reg; &plusmn; &para; &sect; &brvbar; &macr; &laquo; &middot;
 X&sup2; Y&sup3; &frac34; &frac14;  &times;  &divide;   &raquo;
 18&ordm;C  &quot;  &apos;
-[========]
 ```
 &copy; &  &uml; &trade; &iexcl; &pound;
 &amp; &lt; &gt; &yen; &euro; &reg; &plusmn; &para; &sect; &brvbar; &macr; &laquo; &middot;
 X&sup2; Y&sup3; &frac34; &frac14;  &times;  &divide;   &raquo;
 18&ordm;C  &quot;  &apos;
 
-[========]
-
-### 9.Emoji表情 :smiley:
+### 10.Emoji表情 :smiley:
 
 > Blockquotes :star:
 
@@ -366,86 +363,3 @@ X&sup2; Y&sup3; &frac34; &frac14;  &times;  &divide;   &raquo;
 - [ ] [ ]this is an incomplete item :fa-star: :fa-gear:;
     - [ ] :smiley: this is an incomplete item [test link](#) :fa-star: :fa-gear:;
     - [ ] :smiley: this is  :fa-star: :fa-gear: an incomplete item [test link](#);
-
-#### 反斜杠 Escape
-
-\*literal asterisks\*
-
-[========]
-### 10.科学公式 TeX(KaTeX)
-#### 公式格式
-```
-$$E=mc^2$$
-(公式会自动居中)
-```
-$$E=mc^2$$
-
-#### 行内公式
-```
-行内的公式$$E=mc^2$$行内的公式，行内的$$E=mc^2$$公式。
-$$x > y$$
-$$\(\sqrt{3x-1}+(1+x)^2\)$$
-$$\sin(\alpha)^{\theta}=\sum_{i=0}^{n}(x^i + \cos(f))$$
-```
-行内的公式$$E=mc^2$$行内的公式，行内的$$E=mc^2$$公式。
-
-$$x > y$$
-
-$$\(\sqrt{3x-1}+(1+x)^2\)$$
-
-$$\sin(\alpha)^{\theta}=\sum_{i=0}^{n}(x^i + \cos(f))$$
-
-#### 多行公式
-
-```math
-\displaystyle
-\left( \sum\_{k=1}^n a\_k b\_k \right)^2
-\leq
-\left( \sum\_{k=1}^n a\_k^2 \right)
-\left( \sum\_{k=1}^n b\_k^2 \right)
-```
-```katex
-\displaystyle
-    \frac{1}{
-        \Bigl(\sqrt{\phi \sqrt{5}}-\phi\Bigr) e^{
-        \frac25 \pi}} = 1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {
-        1+\frac{e^{-6\pi}}
-        {1+\frac{e^{-8\pi}}
-         {1+\cdots} }
-        }
-    }
-```
-```latex
-f(x) = \int_{-\infty}^\infty
-    \hat f(\xi)\,e^{2 \pi i \xi x}
-    \,d\xi
-```
-### 11.分页符 Page break
-
-> Print Test: Ctrl + P
-
-[========]
-
-### 12.绘制流程图 Flowchart
-
-```flow
-st=>start: 用户登陆
-op=>operation: 登陆操作
-cond=>condition: 登陆成功 Yes or No?
-e=>end: 进入后台
-
-st->op->cond
-cond(yes)->e
-cond(no)->op
-```
-[========]
-
-### 13.绘制序列图 Sequence Diagram
-
-```seq
-Andrew->China: Says Hello
-Note right of China: China thinks\nabout it
-China-->Andrew: How are you?
-Andrew->>China: I am good thanks!
-```
-### End
