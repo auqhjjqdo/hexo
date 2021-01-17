@@ -53,12 +53,19 @@ __粗体__
 ___粗斜体___
 ```
 ~~删除线~~
+
 <s>删除线（开启识别HTML标签时）</s>
+
 *斜体字*
+
 _斜体字_
+
 **粗体**
+
 __粗体__
+
 ***粗斜体***
+
 ___粗斜体___
 
 #### 下划线
@@ -106,25 +113,47 @@ ___粗斜体___
 > 引用：如果想要插入空白换行`即<br />标签`，在插入处先键入两个以上的空格然后回车即可，[普通链接](https://www.mdeditor.com/)。
 
 ### 4.锚点与链接 Links
+
+#### 普通链接
 ```
 [普通链接](https://www.mdeditor.com/)
-[普通链接带标题](https://www.mdeditor.com/ "普通链接带标题")
-直接链接：<https://www.mdeditor.com>
-[锚点链接][anchor-id]
-[anchor-id]: https://www.mdeditor.com/
-[mailto:test.test@gmail.com](mailto:test.test@gmail.com)
-GFM a-tail link @pandao
-邮箱地址自动链接 test.test@gmail.com  www@vip.qq.com
-> @pandao
+```
+[普通链接](https://www.mdeditor.com/)
+
+#### 普通链接带标题
 ```
 [普通链接带标题](https://www.mdeditor.com/ "普通链接带标题")
-直接链接：<https://www.mdeditor.com>
+```
+[普通链接带标题](https://www.mdeditor.com/ "普通链接带标题")
+
+### 直接链接
+```
+<https://www.mdeditor.com>
+```
+<https://www.mdeditor.com>
+
+#### 锚点链接
+```
 [锚点链接][anchor-id]
 [anchor-id]: https://www.mdeditor.com/
+```
+[锚点链接][anchor-id]
+[anchor-id]: https://www.mdeditor.com/
+
+#### mailto链接（邮箱直达链接）
+```
 [mailto:test.test@gmail.com](mailto:test.test@gmail.com)
-GFM a-tail link @pandao
-邮箱地址自动链接 test.test@gmail.com  www@vip.qq.com
-> @pandao
+```
+[mailto:test.test@gmail.com](mailto:test.test@gmail.com)
+
+### 邮箱地址自动链接
+```
+test.test@gmail.com
+www@vip.qq.com
+```
+test.test@gmail.com
+
+www@vip.qq.com
 
 ### 5.多语言代码高亮 Codes
 
